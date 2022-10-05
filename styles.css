@@ -1,0 +1,58 @@
+body {
+  background-color: rgb(138, 190, 83);
+}
+
+h1 {
+  text-align: center;
+}
+
+#corp-description {
+  text-align: center;
+  margin: 0 auto;
+  width: 900px;
+}
+
+#members-container {
+  display: flex;
+  justify-content: center;
+}
+
+#members {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px 50px 20px 50px;
+  margin: 10px 0;
+  width: 800px;
+  background-color: white;
+}
+
+.name {
+  text-align: center;
+  font-weight: bold;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  width: 200px;
+  list-style: none;
+}
+
+.logo {
+ width: 350px;
+}
+
+.icon {
+  height: 200px;
+  width: 200px;
+}
+
+#copyright {
+  text-align: center;
+  margin: 0 auto;
+  font-size: small;
+}
